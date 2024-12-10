@@ -1,0 +1,11 @@
+a=int(input("A:"))
+b=int(input("B:"))
+opration=input("add/sub/multiplication/division:")
+if(opration=="add"):
+    print(a+b)
+elif(opration=="sub"):
+    print(a-b)
+elif(opration=="multiplication"):
+    print(a*b)
+elif(opration=="division"):
+    print(a/b)
